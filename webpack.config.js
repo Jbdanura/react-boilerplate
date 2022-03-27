@@ -1,6 +1,5 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const { NONAME } = require('dns');
 
 module.exports = {
   entry: path.join(__dirname, "src", "index.js"),
